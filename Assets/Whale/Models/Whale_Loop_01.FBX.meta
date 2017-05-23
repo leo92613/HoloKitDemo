@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 8807a330f6df18d418b37807faeb3a0e
+timeCreated: 1495370104
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bird_002
+    100002: bird_003
+    100004: bird_004
+    100006: bird_005
+    100008: bird_006
+    100010: bird_007
+    100012: bird_008
+    100014: bird_01
+    100016: Bird_01_L_Wing
+    100018: Bird_01_L_Wing001
+    100020: Bird_01_L_Wing002
+    100022: Bird_01_L_Wing003
+    100024: Bird_01_L_Wing004
+    100026: Bird_01_L_Wing005
+    100028: Bird_01_L_Wing006
+    100030: Bird_01_L_Wing007
+    100032: Bird_01_R_Wing
+    100034: Bird_01_R_Wing001
+    100036: Bird_01_R_Wing002
+    100038: Bird_01_R_Wing003
+    100040: Bird_01_R_Wing004
+    100042: Bird_01_R_Wing005
+    100044: Bird_01_R_Wing006
+    100046: Bird_01_R_Wing007
+    100048: Bone001
+    100050: Bone002
+    100052: Bone003
+    100054: Bone004
+    100056: Bone005
+    100058: Bone006
+    100060: Bone007
+    100062: Bone008
+    100064: Bone009
+    100066: Bone010
+    100068: Bone011
+    100070: Bone012
+    100072: Bone013
+    100074: Bone014
+    100076: Bone015
+    100078: Bone016
+    100080: Bone017
+    100082: Bone018
+    100084: Bone019
+    100086: Bone020
+    100088: Bone021
+    100090: Bone022
+    100092: Bone023
+    100094: Bone024
+    100096: Bone025
+    100098: Bone026
+    100100: Bone027
+    100102: Bone028
+    100104: Bone030
+    100106: Bone031
+    100108: Bone032
+    100110: Bone033
+    100112: Bone035
+    100114: Bone036
+    100116: Bone037
+    100118: Bone038
+    100120: Bone040
+    100122: Bone041
+    100124: Bone042
+    100126: Bone043
+    100128: Circle001
+    100130: Circle002
+    100132: Circle003
+    100134: Circle004
+    100136: Circle005
+    100138: Circle006
+    100140: Circle007
+    100142: Circle008
+    100144: Circle009
+    100146: Circle010
+    100148: Circle011
+    100150: Circle012
+    100152: Circle013
+    100154: Circle014
+    100156: Circle015
+    100158: Circle016
+    100160: Circle017
+    100162: Circle018
+    100164: Circle020
+    100166: Circle021
+    100168: Circle023
+    100170: Circle025
+    100172: eye_closed
+    100174: eye_shock
+    100176: head_bone01
+    100178: head_bone02
+    100180: head_bone03
+    100182: head_bone04
+    100184: IK Chain001
+    100186: IK Chain002
+    100188: IK Chain003
+    100190: IK Chain004
+    100192: IK Chain005
+    100194: IK Chain006
+    100196: IK Chain007
+    100198: IK Chain008
+    100200: jaw_Bone_01
+    100202: jaw_Bone_02
+    100204: jaw_Bone_03
+    100206: Line001
+    100208: Line002
+    100210: Line003
+    100212: Line004
+    100214: null_01
+    100216: null_012
+    100218: null_013
+    100220: null_014
+    100222: null_015
+    100224: null_02
+    100226: null_03
+    100228: null_04
+    100230: null_05
+    100232: Point001
+    100234: Point002
+    100236: Point003
+    100238: Point004
+    100240: Point006
+    100242: Point007
+    100244: Point008
+    100246: Point009
+    100248: Point011
+    100250: Point012
+    100252: Point013
+    100254: Point014
+    100256: Point016
+    100258: Point017
+    100260: Point018
+    100262: Point019
+    100264: Rectangle001
+    100266: Rectangle002
+    100268: Rectangle003
+    100270: Rectangle004
+    100272: Rectangle005
+    100274: Rectangle006
+    100276: Rectangle007
+    100278: Rectangle008
+    100280: Rectangle009
+    100282: Rectangle010
+    100284: Rectangle011
+    100286: Rectangle012
+    100288: Rectangle013
+    100290: Rectangle014
+    100292: rope
+    100294: rope_rig
+    100296: spine_01
+    100298: spine_02
+    100300: spine_03
+    100302: spine_04
+    100304: spine_05
+    100306: spine_06
+    100308: spine_07
+    100310: spine_08
+    100312: tailBoneL_01
+    100314: tailBoneL_01(mirrored)
+    100316: tailBoneL_02
+    100318: tailBoneL_02(mirrored)
+    100320: tailBoneL_03
+    100322: tailBoneL_03(mirrored)
+    100324: tailBoneL_04
+    100326: tailBoneL_04(mirrored)
+    100328: tailBoneL_05
+    100330: tailBoneL_05(mirrored)
+    100332: whale
+    100334: whale_ctrl
+    100336: //RootNode
+    400000: bird_002
+    400002: bird_003
+    400004: bird_004
+    400006: bird_005
+    400008: bird_006
+    400010: bird_007
+    400012: bird_008
+    400014: bird_01
+    400016: Bird_01_L_Wing
+    400018: Bird_01_L_Wing001
+    400020: Bird_01_L_Wing002
+    400022: Bird_01_L_Wing003
+    400024: Bird_01_L_Wing004
+    400026: Bird_01_L_Wing005
+    400028: Bird_01_L_Wing006
+    400030: Bird_01_L_Wing007
+    400032: Bird_01_R_Wing
+    400034: Bird_01_R_Wing001
+    400036: Bird_01_R_Wing002
+    400038: Bird_01_R_Wing003
+    400040: Bird_01_R_Wing004
+    400042: Bird_01_R_Wing005
+    400044: Bird_01_R_Wing006
+    400046: Bird_01_R_Wing007
+    400048: Bone001
+    400050: Bone002
+    400052: Bone003
+    400054: Bone004
+    400056: Bone005
+    400058: Bone006
+    400060: Bone007
+    400062: Bone008
+    400064: Bone009
+    400066: Bone010
+    400068: Bone011
+    400070: Bone012
+    400072: Bone013
+    400074: Bone014
+    400076: Bone015
+    400078: Bone016
+    400080: Bone017
+    400082: Bone018
+    400084: Bone019
+    400086: Bone020
+    400088: Bone021
+    400090: Bone022
+    400092: Bone023
+    400094: Bone024
+    400096: Bone025
+    400098: Bone026
+    400100: Bone027
+    400102: Bone028
+    400104: Bone030
+    400106: Bone031
+    400108: Bone032
+    400110: Bone033
+    400112: Bone035
+    400114: Bone036
+    400116: Bone037
+    400118: Bone038
+    400120: Bone040
+    400122: Bone041
+    400124: Bone042
+    400126: Bone043
+    400128: Circle001
+    400130: Circle002
+    400132: Circle003
+    400134: Circle004
+    400136: Circle005
+    400138: Circle006
+    400140: Circle007
+    400142: Circle008
+    400144: Circle009
+    400146: Circle010
+    400148: Circle011
+    400150: Circle012
+    400152: Circle013
+    400154: Circle014
+    400156: Circle015
+    400158: Circle016
+    400160: Circle017
+    400162: Circle018
+    400164: Circle020
+    400166: Circle021
+    400168: Circle023
+    400170: Circle025
+    400172: eye_closed
+    400174: eye_shock
+    400176: head_bone01
+    400178: head_bone02
+    400180: head_bone03
+    400182: head_bone04
+    400184: IK Chain001
+    400186: IK Chain002
+    400188: IK Chain003
+    400190: IK Chain004
+    400192: IK Chain005
+    400194: IK Chain006
+    400196: IK Chain007
+    400198: IK Chain008
+    400200: jaw_Bone_01
+    400202: jaw_Bone_02
+    400204: jaw_Bone_03
+    400206: Line001
+    400208: Line002
+    400210: Line003
+    400212: Line004
+    400214: null_01
+    400216: null_012
+    400218: null_013
+    400220: null_014
+    400222: null_015
+    400224: null_02
+    400226: null_03
+    400228: null_04
+    400230: null_05
+    400232: Point001
+    400234: Point002
+    400236: Point003
+    400238: Point004
+    400240: Point006
+    400242: Point007
+    400244: Point008
+    400246: Point009
+    400248: Point011
+    400250: Point012
+    400252: Point013
+    400254: Point014
+    400256: Point016
+    400258: Point017
+    400260: Point018
+    400262: Point019
+    400264: Rectangle001
+    400266: Rectangle002
+    400268: Rectangle003
+    400270: Rectangle004
+    400272: Rectangle005
+    400274: Rectangle006
+    400276: Rectangle007
+    400278: Rectangle008
+    400280: Rectangle009
+    400282: Rectangle010
+    400284: Rectangle011
+    400286: Rectangle012
+    400288: Rectangle013
+    400290: Rectangle014
+    400292: rope
+    400294: rope_rig
+    400296: spine_01
+    400298: spine_02
+    400300: spine_03
+    400302: spine_04
+    400304: spine_05
+    400306: spine_06
+    400308: spine_07
+    400310: spine_08
+    400312: tailBoneL_01
+    400314: tailBoneL_01(mirrored)
+    400316: tailBoneL_02
+    400318: tailBoneL_02(mirrored)
+    400320: tailBoneL_03
+    400322: tailBoneL_03(mirrored)
+    400324: tailBoneL_04
+    400326: tailBoneL_04(mirrored)
+    400328: tailBoneL_05
+    400330: tailBoneL_05(mirrored)
+    400332: whale
+    400334: whale_ctrl
+    400336: //RootNode
+    2300000: bird_002
+    2300002: bird_003
+    2300004: bird_004
+    2300006: bird_005
+    2300008: bird_006
+    2300010: bird_007
+    2300012: bird_008
+    2300014: bird_01
+    2300016: Bird_01_L_Wing
+    2300018: Bird_01_L_Wing001
+    2300020: Bird_01_L_Wing002
+    2300022: Bird_01_L_Wing003
+    2300024: Bird_01_L_Wing004
+    2300026: Bird_01_L_Wing005
+    2300028: Bird_01_L_Wing006
+    2300030: Bird_01_L_Wing007
+    2300032: Bird_01_R_Wing
+    2300034: Bird_01_R_Wing001
+    2300036: Bird_01_R_Wing002
+    2300038: Bird_01_R_Wing003
+    2300040: Bird_01_R_Wing004
+    2300042: Bird_01_R_Wing005
+    2300044: Bird_01_R_Wing006
+    2300046: Bird_01_R_Wing007
+    2300048: eye_closed
+    2300050: eye_shock
+    3300000: bird_002
+    3300002: bird_003
+    3300004: bird_004
+    3300006: bird_005
+    3300008: bird_006
+    3300010: bird_007
+    3300012: bird_008
+    3300014: bird_01
+    3300016: Bird_01_L_Wing
+    3300018: Bird_01_L_Wing001
+    3300020: Bird_01_L_Wing002
+    3300022: Bird_01_L_Wing003
+    3300024: Bird_01_L_Wing004
+    3300026: Bird_01_L_Wing005
+    3300028: Bird_01_L_Wing006
+    3300030: Bird_01_L_Wing007
+    3300032: Bird_01_R_Wing
+    3300034: Bird_01_R_Wing001
+    3300036: Bird_01_R_Wing002
+    3300038: Bird_01_R_Wing003
+    3300040: Bird_01_R_Wing004
+    3300042: Bird_01_R_Wing005
+    3300044: Bird_01_R_Wing006
+    3300046: Bird_01_R_Wing007
+    3300048: eye_closed
+    3300050: eye_shock
+    4300000: bird_01
+    4300002: Bird_01_R_Wing
+    4300004: Bird_01_L_Wing
+    4300006: whale
+    4300008: eye_closed
+    4300010: eye_shock
+    4300012: bird_002
+    4300014: Bird_01_R_Wing001
+    4300016: Bird_01_L_Wing001
+    4300018: bird_003
+    4300020: Bird_01_R_Wing002
+    4300022: Bird_01_L_Wing002
+    4300024: bird_004
+    4300026: Bird_01_R_Wing003
+    4300028: Bird_01_L_Wing003
+    4300030: bird_005
+    4300032: Bird_01_R_Wing004
+    4300034: Bird_01_L_Wing004
+    4300036: bird_006
+    4300038: Bird_01_R_Wing005
+    4300040: Bird_01_L_Wing005
+    4300042: bird_007
+    4300044: Bird_01_R_Wing006
+    4300046: Bird_01_L_Wing006
+    4300048: bird_008
+    4300050: Bird_01_R_Wing007
+    4300052: Bird_01_L_Wing007
+    4300054: rope_rig
+    4300056: rope
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: rope
+    13700002: rope_rig
+    13700004: whale
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 230
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bird_01
+        weight: 1
+      - path: bird_01/Bird_01_L_Wing
+        weight: 1
+      - path: bird_01/Bird_01_R_Wing
+        weight: 1
+      - path: bird_01/IK Chain001
+        weight: 1
+      - path: bird_002
+        weight: 1
+      - path: bird_002/Bird_01_L_Wing001
+        weight: 1
+      - path: bird_002/Bird_01_R_Wing001
+        weight: 1
+      - path: bird_002/IK Chain002
+        weight: 1
+      - path: bird_003
+        weight: 1
+      - path: bird_003/Bird_01_L_Wing002
+        weight: 1
+      - path: bird_003/Bird_01_R_Wing002
+        weight: 1
+      - path: bird_003/IK Chain004
+        weight: 1
+      - path: bird_004
+        weight: 1
+      - path: bird_004/Bird_01_L_Wing003
+        weight: 1
+      - path: bird_004/Bird_01_R_Wing003
+        weight: 1
+      - path: bird_004/IK Chain003
+        weight: 1
+      - path: bird_005
+        weight: 1
+      - path: bird_005/Bird_01_L_Wing004
+        weight: 1
+      - path: bird_005/Bird_01_R_Wing004
+        weight: 1
+      - path: bird_005/IK Chain005
+        weight: 1
+      - path: bird_006
+        weight: 1
+      - path: bird_006/Bird_01_L_Wing005
+        weight: 1
+      - path: bird_006/Bird_01_R_Wing005
+        weight: 1
+      - path: bird_006/IK Chain006
+        weight: 1
+      - path: bird_007
+        weight: 1
+      - path: bird_007/Bird_01_L_Wing006
+        weight: 1
+      - path: bird_007/Bird_01_R_Wing006
+        weight: 1
+      - path: bird_007/IK Chain007
+        weight: 1
+      - path: bird_008
+        weight: 1
+      - path: bird_008/Bird_01_L_Wing007
+        weight: 1
+      - path: bird_008/Bird_01_R_Wing007
+        weight: 1
+      - path: bird_008/IK Chain008
+        weight: 1
+      - path: Bone025
+        weight: 1
+      - path: Bone025/Bone026
+        weight: 1
+      - path: Bone025/Bone026/Bone027
+        weight: 1
+      - path: Bone025/Bone026/Bone027/Bone028
+        weight: 1
+      - path: Bone025/Bone026/Bone027/Bone028/null_015
+        weight: 1
+      - path: Bone030
+        weight: 1
+      - path: Bone030/Bone031
+        weight: 1
+      - path: Bone030/Bone031/Bone032
+        weight: 1
+      - path: Bone030/Bone031/Bone032/Bone033
+        weight: 1
+      - path: Bone030/Bone031/Bone032/Bone033/null_014
+        weight: 1
+      - path: Bone035
+        weight: 1
+      - path: Bone035/Bone036
+        weight: 1
+      - path: Bone035/Bone036/Bone037
+        weight: 1
+      - path: Bone035/Bone036/Bone037/Bone038
+        weight: 1
+      - path: Bone035/Bone036/Bone037/Bone038/null_013
+        weight: 1
+      - path: Bone040
+        weight: 1
+      - path: Bone040/Bone041
+        weight: 1
+      - path: Bone040/Bone041/Bone042
+        weight: 1
+      - path: Bone040/Bone041/Bone042/Bone043
+        weight: 1
+      - path: Bone040/Bone041/Bone042/Bone043/null_012
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Line004
+        weight: 1
+      - path: rope
+        weight: 1
+      - path: rope_rig
+        weight: 1
+      - path: whale
+        weight: 1
+      - path: whale_ctrl
+        weight: 1
+      - path: whale_ctrl/Circle011
+        weight: 1
+      - path: whale_ctrl/Circle011/Bone001
+        weight: 1
+      - path: whale_ctrl/Circle011/Bone001/Bone002
+        weight: 1
+      - path: whale_ctrl/Circle011/Bone001/Bone002/Bone003
+        weight: 1
+      - path: whale_ctrl/Circle011/Circle025
+        weight: 1
+      - path: whale_ctrl/Circle011/Circle025/Point016
+        weight: 1
+      - path: whale_ctrl/Circle011/Circle025/Point016/Point017
+        weight: 1
+      - path: whale_ctrl/Circle011/Circle025/Point016/Point018
+        weight: 1
+      - path: whale_ctrl/Circle011/Circle025/Point016/Point019
+        weight: 1
+      - path: whale_ctrl/Circle012
+        weight: 1
+      - path: whale_ctrl/Circle012/Bone010
+        weight: 1
+      - path: whale_ctrl/Circle012/Bone010/Bone011
+        weight: 1
+      - path: whale_ctrl/Circle012/Bone010/Bone011/Bone012
+        weight: 1
+      - path: whale_ctrl/Circle012/Circle023
+        weight: 1
+      - path: whale_ctrl/Circle012/Circle023/Point011
+        weight: 1
+      - path: whale_ctrl/Circle012/Circle023/Point011/Point012
+        weight: 1
+      - path: whale_ctrl/Circle012/Circle023/Point011/Point013
+        weight: 1
+      - path: whale_ctrl/Circle012/Circle023/Point011/Point014
+        weight: 1
+      - path: whale_ctrl/Circle013
+        weight: 1
+      - path: whale_ctrl/Circle013/Bone013
+        weight: 1
+      - path: whale_ctrl/Circle013/Bone013/Bone014
+        weight: 1
+      - path: whale_ctrl/Circle013/Bone013/Bone014/Bone015
+        weight: 1
+      - path: whale_ctrl/Circle013/Circle021
+        weight: 1
+      - path: whale_ctrl/Circle013/Circle021/Point006
+        weight: 1
+      - path: whale_ctrl/Circle013/Circle021/Point006/Point007
+        weight: 1
+      - path: whale_ctrl/Circle013/Circle021/Point006/Point008
+        weight: 1
+      - path: whale_ctrl/Circle013/Circle021/Point006/Point009
+        weight: 1
+      - path: whale_ctrl/Circle014
+        weight: 1
+      - path: whale_ctrl/Circle014/Bone019
+        weight: 1
+      - path: whale_ctrl/Circle014/Bone019/Bone020
+        weight: 1
+      - path: whale_ctrl/Circle014/Bone019/Bone020/Bone021
+        weight: 1
+      - path: whale_ctrl/Circle014/Circle020
+        weight: 1
+      - path: whale_ctrl/Circle014/Circle020/Point001
+        weight: 1
+      - path: whale_ctrl/Circle014/Circle020/Point001/Point002
+        weight: 1
+      - path: whale_ctrl/Circle014/Circle020/Point001/Point003
+        weight: 1
+      - path: whale_ctrl/Circle014/Circle020/Point001/Point004
+        weight: 1
+      - path: whale_ctrl/Circle015
+        weight: 1
+      - path: whale_ctrl/Circle015/Bone016
+        weight: 1
+      - path: whale_ctrl/Circle015/Bone016/Bone017
+        weight: 1
+      - path: whale_ctrl/Circle015/Bone016/Bone017/Bone018
+        weight: 1
+      - path: whale_ctrl/Circle016
+        weight: 1
+      - path: whale_ctrl/Circle016/Bone007
+        weight: 1
+      - path: whale_ctrl/Circle016/Bone007/Bone008
+        weight: 1
+      - path: whale_ctrl/Circle016/Bone007/Bone008/Bone009
+        weight: 1
+      - path: whale_ctrl/Circle017
+        weight: 1
+      - path: whale_ctrl/Circle017/Bone022
+        weight: 1
+      - path: whale_ctrl/Circle017/Bone022/Bone023
+        weight: 1
+      - path: whale_ctrl/Circle017/Bone022/Bone023/Bone024
+        weight: 1
+      - path: whale_ctrl/Circle018
+        weight: 1
+      - path: whale_ctrl/Circle018/Bone004
+        weight: 1
+      - path: whale_ctrl/Circle018/Bone004/Bone005
+        weight: 1
+      - path: whale_ctrl/Circle018/Bone004/Bone005/Bone006
+        weight: 1
+      - path: whale_ctrl/eye_closed
+        weight: 1
+      - path: whale_ctrl/eye_shock
+        weight: 1
+      - path: whale_ctrl/spine_01
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012/head_bone02
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012/head_bone02/Rectangle013
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012/head_bone02/Rectangle013/head_bone03
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012/head_bone02/Rectangle013/head_bone03/Rectangle014
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012/head_bone02/Rectangle013/head_bone03/Rectangle014/head_bone04
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/head_bone01/Rectangle012/head_bone02/Rectangle013/head_bone03/Rectangle014/head_bone04/null_05
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001/jaw_Bone_01
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001/jaw_Bone_01/Circle002
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001/jaw_Bone_01/Circle002/jaw_Bone_02
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001/jaw_Bone_01/Circle002/jaw_Bone_02/Circle003
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001/jaw_Bone_01/Circle002/jaw_Bone_02/Circle003/jaw_Bone_03
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle001/Rectangle001/jaw_Bone_01/Circle002/jaw_Bone_02/Circle003/jaw_Bone_03/null_01
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/null_02
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004/tailBoneL_03
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004/tailBoneL_03/Rectangle005
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004/tailBoneL_03/Rectangle005/tailBoneL_04
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004/tailBoneL_03/Rectangle005/tailBoneL_04/Rectangle006
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004/tailBoneL_03/Rectangle005/tailBoneL_04/Rectangle006/tailBoneL_05
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle002/tailBoneL_01/Rectangle003/tailBoneL_02/Rectangle004/tailBoneL_03/Rectangle005/tailBoneL_04/Rectangle006/tailBoneL_05/null_03
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009/tailBoneL_03(mirrored)
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009/tailBoneL_03(mirrored)/Rectangle008
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009/tailBoneL_03(mirrored)/Rectangle008/tailBoneL_04(mirrored)
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009/tailBoneL_03(mirrored)/Rectangle008/tailBoneL_04(mirrored)/Rectangle007
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009/tailBoneL_03(mirrored)/Rectangle008/tailBoneL_04(mirrored)/Rectangle007/tailBoneL_05(mirrored)
+        weight: 1
+      - path: whale_ctrl/spine_01/Circle004/spine_02/Circle005/spine_03/Circle006/spine_04/Circle007/spine_05/Circle008/spine_06/Circle009/spine_07/Circle010/spine_08/Rectangle011/tailBoneL_01(mirrored)/Rectangle010/tailBoneL_02(mirrored)/Rectangle009/tailBoneL_03(mirrored)/Rectangle008/tailBoneL_04(mirrored)/Rectangle007/tailBoneL_05(mirrored)/null_04
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
